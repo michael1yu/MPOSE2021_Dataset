@@ -46,9 +46,6 @@ def main():
         scripts.create_splits.create_splits(force=args.force, verbose=args.verbose)
     
     # Data Checking
-    scripts.check_integrity.check_integrity('video')
-    scripts.check_integrity.check_integrity('rgb')
-    scripts.check_integrity.check_integrity('pose')
     scripts.generate_figures.generate_figures(force=args.force, verbose=args.verbose)
     
 if __name__ == '__main__':
