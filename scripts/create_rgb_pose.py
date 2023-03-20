@@ -68,6 +68,8 @@ def create_rgb_pose(force=False, verbose=True):
             print('RGB and Poses already processed, skipping...')
         return
     for i in jsons:
+        if "utkinet" not in i:
+            continue
         meta = ls.get_meta(i)
         if glob.glob(os.path.join(paths['rgb'], i.split('.')[-2]+'-*')) and not force:
             if verbose:
