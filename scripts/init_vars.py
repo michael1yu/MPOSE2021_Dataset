@@ -16,7 +16,7 @@ import cv2
 
 # main path of the dataset repository
 # (specify an absolute path, leave 'MPOSE2021' to export in the current folder)
-dataset_path = '/media/MPOSE2021_Dataset/'
+dataset_path = 'MPOSE2021_Dataset/'
 
 # path where the data will be extracted 
 data_path = dataset_path + 'data/'
