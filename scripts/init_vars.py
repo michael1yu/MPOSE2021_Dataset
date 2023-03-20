@@ -41,14 +41,7 @@ logs_path = dataset_path + 'logs/'
 max_frame_length = 30
 min_frame_length = 20
 
-precursors = ['weizmann',
-              'isldas',
-              'isld',
-              'ixmas',
-              'kth',
-              'i3dpost',
-              'utkinect',
-              'utdmhad']
+precursors = ['utkinect']
 
 archives_paths = dict(utkinect=archives_path + 'utkinect/',
                       json=archives_path + 'json/',
