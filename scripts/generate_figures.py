@@ -28,14 +28,7 @@ def generate_figures(force=False, verbose=True):
     report_openpose = lc.read_poses(paths['pose'])
     report_posenet = lc.read_poses(paths['posenet'])
 
-    datasets = ['KTH',
-                'IXMAS',
-                'i3DPost',
-                'Weizmann',
-                'ISLD',
-                'ISLD-AS',
-                'UTKinect',
-                'UTD-MHAD']
+    datasets = ['UTKinect']
     palette = sns.color_palette('tab10', n_colors=len(datasets))
     colors = {dataset.lower().replace('-', ''): palette[i] for i, dataset in enumerate(datasets)}
 
