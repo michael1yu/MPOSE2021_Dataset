@@ -88,7 +88,7 @@ fps = dict(utkinect=19)
 
 former_frame_size = dict(utkinect=(640, 480))
 
-frame_size = dict(utkinect=(640, 480)))
+frame_size = dict(utkinect=(640, 480))
 resize_interpolation = cv2.INTER_CUBIC
 
 misc_paths = dict(utkinect=dataset_path+'scripts/misc/utkinect_splitter.txt',
